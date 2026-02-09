@@ -19,12 +19,12 @@ print("=" .. string.rep("=", 50))
 -- ========================================
 
 -- SUBSTITUIR COM SUAS URLs OU USAR DADOS EMBUTIDOS
-local USE_URLS = false -- Mudar para true para usar URLs
+local USE_URLS = true -- Mudar para true para usar URLs
 
 -- URLs dos JSONs (se USE_URLS = true)
-local TILES_URL = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/tiles.json"
-local SPAWNS_URL = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/spawns.json"
-local NPCS_URL = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/npcs.json"
+local TILES_URL = "https://raw.githubusercontent.com/boiverde/otserver-roblox-converter/main/export/tiles.json"
+local SPAWNS_URL = "https://raw.githubusercontent.com/boiverde/otserver-roblox-converter/main/export/spawns.json"
+local NPCS_URL = "https://raw.githubusercontent.com/boiverde/otserver-roblox-converter/main/export/npcs.json"
 
 -- Dados embutidos para teste (se USE_URLS = false)
 local TILES_JSON = [[
